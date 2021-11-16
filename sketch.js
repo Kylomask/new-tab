@@ -54,7 +54,7 @@ function draw() {
   
   text(score + "     " + "HI "+ hiscore,width/2,height/2)
   Button.mousePressed(() => {
-    location.replace(input.value)
+    location.replace('https://www.google.com/search?q='+input.value)
   });
 }
 
